@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,47 +9,101 @@
     <link rel="stylesheet" href="./src/style.css">
     <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
 </head>
+
 <body>
     <header class="h-home">
         <nav class="n-bar">
             <ul>
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="gif">
+        <section class="gif">
             <img src="./src/img/banner.gif" alt="Gif">
-        </div>
-        <div class="sobre" id="about">
+        </section>
+        <section class="hidden sobre" id="about">
             <div class="texts">
                 <h1 class="title-01">Sobre</h1>
-                <p class="text-ap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, accusamus eveniet sunt omnis at iste numquam eos debitis reprehenderit molestiae. Pariatur voluptatibus repellat repudiandae ea dignissimos cum, facilis molestiae corporis? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quod consequatur corrupti ea. Eveniet similique harum perferendis aut quidem odit culpa, exercitationem veniam? Harum non quam eligendi illo, officia ex.</p>
+                <p class="text-ap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, accusamus eveniet
+                    sunt omnis at iste numquam eos debitis reprehenderit molestiae. Pariatur voluptatibus repellat
+                    repudiandae ea dignissimos cum, facilis molestiae corporis? <br> Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Atque quod consequatur corrupti ea. Eveniet similique harum
+                    perferendis aut quidem odit culpa, exercitationem veniam? Harum non quam eligendi illo, officia ex.
+                </p>
                 <div class="tecnologias">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="Icone do HTML5">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="Icone do CSS3">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Icone do JavaScript">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                        alt="Icone do HTML5">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                        alt="Icone do CSS3">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                        alt="Icone do JavaScript">
                 </div>
             </div>
             <div class="f-div">
                 <img class="foto" src="./src/img/bru-ft00.png" alt="Imagem do Bruno">
             </div>
-        </div>
-        <div class="projetos" id="projects">
-            <h1 class="title-p">Meus Projetos</h1>
-            <div class="p-proj">
-                <div class="p1"></div>
-                <div class="p2"></div>
-                <div class="p3"></div>
-            </div>
-        </div>
+        </section>
+        <section class="hidden projetos" id="projetos">
+            <h2 class="titulo">Meus projetos</h2>
+
+            <div class="container-projetos">
+                <div class="projeto ativo">
+                    <a href="https://github.com/BrunoOller/grandtheftauto" target="_blank">
+                        <img src="./src/img/projeto-gta.png" alt="Projeto Landing page GTA" />
+                        <h3>Projeto 1</h3>
+
+                        <div class="informacoes-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto ativo">
+                    <a href="https://github.com/BrunoOller/Pokemon" target="_blank">
+                        <img src="./src/img/projeto-listagem-pokemon.png" alt="Projeto listagem de pokemons" />
+                        <h3>Projeto 2</h3>
+                        <div class="informacoes-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto ativo">
+                    <a href="https://github.com/BrunoOller/OnePiece" target="_blank">
+                        <img src="./src/img/projeto-one-piece.png" alt="Projeto landing page One Piece" />
+                        <h3>Projeto 3</h3>
+                        <div class="informacoes-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto ativo">
+                    <a href="https://github.com/BrunoOller/XMen" target="_blank">
+                        <img src="./src/img/projeto-x-men.png" alt="Projeto seletor de personagens x-men" />
+                        <h3>Projeto 4</h3>
+                        <div class="informacoes-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+        </section>
     </main>
     <footer></footer>
 
     <a href="#" class="button-up">
         <i class="fa-solid fa-arrow-up"></i>
     </a>
+
+    <script src="./src/script.js"></script>
+    <script src="./src/script.js"></script>
 </body>
+
 </html>
